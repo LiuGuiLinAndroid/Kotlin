@@ -29,3 +29,20 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 - [Kotlin GitHub](https://github.com/JetBrains/kotlin)
 
 - [Kotlin 语言官方参考文档 中文版](https://www.gitbook.com/book/hltj/kotlin-reference-chinese/details)
+
+## 三.PDF
+
+- [kotlin-docs](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/PDF/kotlin-docs.pdf)
+
+- [kotlin-reference-chinese](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/PDF/kotlin-reference-chinese.pdf)
+
+## 四.BOOK
+
+- [Kotlin for Android Developers](https://leanpub.com/kotlin-for-android-developers)
+
+## 五.Blog
+
+
+## 六.Discuss
+
+![Kotlin]()
