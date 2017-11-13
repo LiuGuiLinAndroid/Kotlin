@@ -6,7 +6,7 @@ Today, at the Google I/O keynote, the Android team announced first-class support
 
 For Android developers, Kotlin support is a chance to use a modern and powerful language, helping solve common headaches such as runtime exceptions and source code verbosity. Kotlin is easy to get started with and can be gradually introduced into existing projects, which means that your existing skills and technology investments are preserved.
 
-## 一.Why Kotlin?
+## 一.Why Kotlin
 
 **Statically typed programming language for modern multiplatform applications**
 
@@ -42,7 +42,8 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 ## 五.Blog
 
+- ...
 
 ## 六.Discuss
 
-![Kotlin]()
+![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
