@@ -8,15 +8,15 @@ For Android developers, Kotlin support is a chance to use a modern and powerful 
 
 ## 一.Why Kotlin?
 
-Statically typed programming language for modern multiplatform applications
+**Statically typed programming language for modern multiplatform applications**
 
 Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.android.google.cn/kotlin/index.html)
 
-- Safer Code：安全的代码
-- Readable and Concise：简洁的代码
-- Say Goodbye to findViewById：告别findViewById
-- Extend functionality without inheritance：扩展继承功能
-- 100% Interoperable with Java：100%的可互操作的Java
+- Safer Code
+- Readable and Concise
+- Say Goodbye to findViewById
+- Extend functionality without inheritance
+- 100% Interoperable with Java
 
 ## 二.Material
 
