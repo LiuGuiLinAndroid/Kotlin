@@ -4,7 +4,7 @@
 
 Kotlin的很多概念跟JAVA是有类似的，所以我应该不会像我的JAVA之旅一样那么的详细，但是不用担心，你会看的很明白的，我也是根据官方的文档来学习的
 
-我们再IDEA中创建一个项目Kotlin02
+我们在IDEA中创建一个项目Kotlin02
 
 ### 1.函数(fun)
 
@@ -377,14 +377,15 @@ while循环没什么好讲的，你按照正常的来就好了
 
 这些大概就是Kotlin的大致介绍了，实际上这门美丽的语言不止是这些内容，当你已经了解了这些之后，我们就可以进行下一个环节，正在的开始没一个知识点的细讲了
 
+#### 如果有兴趣的话，可以加入我的Kotlin学习小组
+
+![加入](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
 
 #### **我的公众号，期待你的关注**
 
 ![weixin](http://img.blog.csdn.net/20160108203741937)
 
-#### 如果有兴趣的话，可以加入我的Kotlin学习小组
 
-![加入](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
 
 
 
