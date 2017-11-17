@@ -379,7 +379,7 @@ while循环没什么好讲的，你按照正常的来就好了
 
 #### 如果有兴趣的话，可以加入我的Kotlin学习小组
 
-![加入](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
+![这里写图片描述](http://img.blog.csdn.net/20171117134155479?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY3ODcxMTU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 #### **我的公众号，期待你的关注**
 
