@@ -42,7 +42,7 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 ## 五.Blog
 
-- ...
+- [Kotlin学习（一）—— IDEAIntelliJ IDEA的安装配置及Kotlin的环境部署](http://blog.csdn.net/qq_26787115/article/details/78573458)
 
 ## 六.Discuss
 
