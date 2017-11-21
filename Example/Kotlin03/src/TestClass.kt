@@ -62,24 +62,90 @@ fun main(args: Array<String>) {
 
     //for (a in asc) { print(a)}
 
-    for (c in "Hello") {
-        //println("$c")
+    //for (c in "Hello") {
+    //println("$c")
+    //}
+
+    //val text = """
+    //for (c in "foo")
+    //   print(c)
+    //"""
+    //print(text)
+
+    /*
+    val a = 12;
+
+    //传统
+    if (a > 10) {
+        print(">")
+    } else {
+        print("<")
     }
 
-    val text = """
-        for (c in "foo")
-            print(c)
-        """
-    print(text)
+    //表达式
+    if (a > 10) print(">") else print("<")
+
+    //表达式
+    var b = if (a > 10) 10 else 20
+    */
+
+
+    /*
+    val today = 4;
+    when (today) {
+        in 1..3 -> print("春季")
+        in 4..6 -> print("夏季")
+        in 7..9 -> print("秋季")
+        in 10..12 -> print("冬季")
+        else -> print("error")
+    }
+    */
+
+    //var items = listOf(1,2,3);
+
+    //out 123
+    //for(a in items) print(a)
+
+    //out 012
+    //for (a in items.indices) print(a)
+
+    //out 0 , 1  1 , 2  2 , 3
+    //for ((a,b)in items.withIndex()) print("$a , $b \n")
+
+    /*
+    var a = 5;
+
+    while (a > 3){
+        print(a)
+        a--;
+    }
+
+    do {
+        print(a)
+        a--;
+    }while (a > 3)
+    */
+
+
+    var items = listOf(1, 3, 5, 7, 9)
+
+    loop@ for (a in items) {
+        if (a == 5) {
+            // continue | break | return
+        }
+        print("$a \n")
+    }
 }
+
 
 /**
  * 转int
  */
+/*
 fun decimalDigitValue(c: Char): Int {
     if (c !in '0'..'9')
         throw IllegalArgumentException("Out of range")
     // 显式转换为数字
     return c.toInt() - '0'.toInt()
 }
-
+*/

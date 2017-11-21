@@ -186,13 +186,125 @@ fun sum(a: Int, b: Int): Int {
 
 ## 三.控制流：if、when、for、while
 
+### 1.if表达式
 
+在kotlin中，if的用法不局限于判断，他还会有返回，所以我们的写法也很多，比如
 
+```
+    val a = 12;
 
+    //传统
+    if (a > 10) {
+        print(">")
+    } else {
+        print("<")
+    }
 
+    //表达式
+    if (a > 10) print(">") else print("<")
 
+    //表达式
+    var b = if (a > 10) 10 else 20
+```
 
+### 2.When表达式
 
+```
+    val today = 4;
+    when (today) {
+        1 -> print("春季")
+        2 -> print("春季")
+        3 -> print("春季")
+        4 -> print("夏季")
+        5 -> print("夏季")
+        6 -> print("夏季")
+        7 -> print("秋季")
+        8 -> print("秋季")
+        9 -> print("秋季")
+        10 -> print("冬季")
+        11 -> print("冬季")
+        12 -> print("冬季")
+    }
+
+```
+
+但是我们一般是需要else结尾的，而且我们可以用in来表达
+
+```
+    val today = 4;
+    when (today) {
+        in 1..3 -> print("春季")
+        in 4..6 -> print("夏季")
+        in 7..9 -> print("秋季")
+        in 10..12 -> print("冬季")
+        else -> print("error")
+    }
+```
+
+当然，你还可以用is来判断类型，这里就不讲了
+
+### 3.For 循环
+
+```
+    var items = listOf(1,2,3);
+
+    //out 123
+    for(a in items) print(a)
+
+    //out 012
+    for (a in items.indices) print(a)
+
+    //out 0 , 1  1 , 2  2 , 3
+    for ((a,b)in items.withIndex()) print("$a , $b \n")
+```
+
+### 4.While 循环
+
+```
+    var a = 5;
+
+    while (a > 3){
+        print(a)
+        a--;
+    }
+
+    do {
+        print(a)
+        a--;
+    }while (a > 3)
+```
+
+## 四.Break和continue
+
+Kotlin 有三种结构化跳转表达式：
+
+- return。默认从最直接包围它的函数或者匿名函数返回。
+- break。终止最直接包围它的循环。
+- continue。继续下一次最直接包围它的循环。
+
+我们来看一个例子
+
+```
+    var items = listOf(1, 3, 5, 7, 9)
+
+    for (a in items) {
+        if (a == 5) {
+            continue | break | return
+        }
+        print("$a \n")
+    }
+```
+
+这里循环一个数组，如果等于5就分别执行continue，break，return，如果是break，return会跳出循环，也就
+只会打印1,3而continue会跳出本次循环，也就会打印1,3,7,9
+
+#### 如果有兴趣的话，可以加入我的Kotlin学习小组
+
+![这里写图片描述](http://img.blog.csdn.net/20171117134155479?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY3ODcxMTU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+#### **我的公众号，期待你的关注**
+
+![weixin](http://img.blog.csdn.net/20160108203741937)
 
 
 
