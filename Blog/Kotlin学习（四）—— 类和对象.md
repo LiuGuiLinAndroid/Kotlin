@@ -1,4 +1,6 @@
-## 一.类和对象，继承，覆盖，抽象类，属性和字段
+# 类和对象，继承，覆盖，抽象类，属性和字段，接口，可见性修饰符，扩展
+
+## 一.类和对象
 
 ### 1. 类
 
@@ -278,6 +280,94 @@ class H {
 ```
 
 我就定义了a的get和set
+
+## 六.接口
+
+kt的接口的关键字interface，比如
+
+```
+interface Impl {
+    fun A()
+    fun B() {
+        //可选方法体
+    }
+}
+```
+
+如果你想实现一个接口，你可以
+
+```
+class Tests : Impl {
+
+    override fun A() {
+
+    }
+    //B方法可以不需要实现
+}
+
+```
+
+你也可以在接口中定义一些属性，但是必须是抽象的或者对外提供访问的
+
+```
+interface Impl {
+
+    //抽象
+    val a: String
+    val b: String
+        get() = "Hello"
+
+    fun A()
+    fun B() {
+        //可选方法体
+    }
+}
+
+class Tests() : Impl {
+
+    override val a: String = "Hello"
+    
+    override fun A() {
+
+    }
+    //B方法可以不需要实现
+}
+
+```
+
+## 七.可见性修饰符
+
+kt中有四种可见性修饰符，private 、protected 、internal 和 public，默认是public
+
+- public 随处可见
+
+- private 声明他的文件中可见
+
+- internal 相同模块可见
+
+- protected 不适用于顶层声明
+
+这里还有一点需要注意的是，在JAVA中我们private中修饰的变量最终可以通过set/get的方式去访问，但是在kt中，外部类是不能访问内部类修饰的private成员
+
+
+## 八.扩展
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
