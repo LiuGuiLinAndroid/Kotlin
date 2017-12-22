@@ -25,7 +25,7 @@ class H {
 fun main(args: Array<String>) {
     val h = H();
     h.a == "Hello"
-  
+
     //print("a:${h.a}b:${h.b}c:${h.c}")
 }
 

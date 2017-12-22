@@ -352,9 +352,39 @@ kt中有四种可见性修饰符，private 、protected 、internal 和 public�
 
 ## 八.扩展
 
+扩展，扩展一个类或者对象的新功能无需继承该类或使⽤像装饰者这样的任何类型的设计模式
 
+声明一个扩展函数，我们需要一个接收者类型 也就是被扩展的类型来作为他的前缀，来看代码：
 
+```
+fun main(args: Array<String>) {
+    val a = listOf<Int>()
+    a.open(1, 2)
+}
 
+//扩展List一个open方法
+fun List<Int>.open(a: Int, b: Int) {
+    print(a + b)
+}
+```
+
+这里就看的很清晰了，一个List本来没有open的方法，我通过扩展就给他加上了，并且内部实现了输出想加的结果
+当然，我们并不会局限于哪些类型，所以通过泛型去装饰一下
+
+```
+//扩展List一个open方法
+fun <T> List<T>.open(a: Int, b: Int) {
+    print(a + b)
+}
+```
+
+#### 如果有兴趣的话，可以加入我的Kotlin学习小组
+
+![这里写图片描述](http://img.blog.csdn.net/20171117134155479?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMjY3ODcxMTU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+#### **我的公众号，期待你的关注**
+
+![weixin](http://img.blog.csdn.net/20160108203741937)
 
 
 
