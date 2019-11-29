@@ -50,6 +50,26 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 - [Kotlin学习（四）—— 类和对象，继承，覆盖，抽象类，属性和字段，接口，可见性修饰符，扩展 ](http://blog.csdn.net/qq_26787115/article/details/78871599)
 
+- [Kotlin学习（五）—— 数据类，泛型，嵌套类与内部类，对象表达式和对象声明](https://blog.csdn.net/qq_26787115/article/details/103040657)
+
+- [Kotlin学习（六）—— 基础巩固，类与继承，Lambda，表达式，计算器](https://blog.csdn.net/qq_26787115/article/details/103152912)
+
+- [Kotlin学习（七）—— 数据类空构造的实现NoArg](https://blog.csdn.net/qq_26787115/article/details/103308276)
+
+- [Kotlin学习（八）—— 协程Coroutine基础](https://blog.csdn.net/qq_26787115/article/details/103308311)
+
+- [Kotlin学习（九）—— Android Studio 创建第一个Kotlin App](https://blog.csdn.net/qq_26787115/article/details/103308358)
+
 ## 六.Discuss
 
 ![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
+
+## 七.Hi Android
+
+如果你想快速进阶Android
+如果你苦恼于找不到合适的教程和资源
+如果你苦于工作中没有良师益友
+如果你想要一个干净的技术讨论社区
+那么，欢迎加入
+
+![Hi Android](https://img-blog.csdnimg.cn/20190924000129126.jpg)
