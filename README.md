@@ -67,9 +67,13 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 ## 七.Hi Android
 
 如果你想快速进阶Android
+
 如果你苦恼于找不到合适的教程和资源
+
 如果你苦于工作中没有良师益友
+
 如果你想要一个干净的技术讨论社区
+
 那么，欢迎加入
 
-![Hi Android](https://img-blog.csdnimg.cn/20190924000129126.jpg)
+![Hi Android](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/HiAndroid.jpg)
