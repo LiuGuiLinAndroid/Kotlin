@@ -70,7 +70,7 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 [点击查看源码](https://github.com/LiuGuiLinAndroid/Kotlin/tree/master/sample/KotlinWeather)
 
-![Kotlin Gif](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/kotlingif.gif?raw=true)
+![Weather](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/weather.png?raw=true)
 
 ## 六.Discuss
 
