@@ -1,5 +1,7 @@
 # Kotlin
 
+![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/KotlinIcon.png?raw=true)
+
 > Let's study Kotlin !
 
 Today, at the Google I/O keynote, the Android team announced first-class support for Kotlin. We believe this is a great step for Kotlin, and fantastic news for Android developers as well as the rest of our community. We’re thrilled with the opportunities this opens up.
@@ -66,13 +68,13 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 ## 六.Kotlin-Weather
 
-[点击查看源码](https://github.com/LiuGuiLinAndroid/Kotlin/tree/master/Sample/KotlinWeather)
+[点击查看源码](https://github.com/LiuGuiLinAndroid/Kotlin/tree/master/sample/KotlinWeather)
 
-![](https://img-blog.csdnimg.cn/20191224150139995.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saXVndWlsaW4uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+![Kotlin Gif](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/kotlingif.gif?raw=true)
 
 ## 六.Discuss
 
-![Kotlin](https://img-blog.csdnimg.cn/20191224145547663.png)
+![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/Kotlin.jpg?raw=true)
 
 ## 七.Hi Android
 
@@ -86,4 +88,4 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 那么，欢迎加入
 
-![Hi Android](https://img-blog.csdnimg.cn/20191224145600704.png)
+![Hi Android](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/HiAndroid.jpg?raw=true)
