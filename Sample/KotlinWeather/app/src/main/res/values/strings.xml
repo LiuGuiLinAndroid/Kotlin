@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">天气预报</string>
+
+    <string name="tv_province">省</string>
+    <string name="tv_city">市</string>
+    <string name="tv_district">县/区</string>
+
+    <string name="tv_select_city">请选择地址</string>
+    <string name="tv_version">版本号:</string>
+    <string name="tv_qq_group">675501323</string>
+    <string name="tv_cilp_ok">已复制到粘贴板</string>
+
+    <string name="tv_temperature_a">℃</string>
+    <string name="tv_humidity">湿度</string>
+    <string name="tv_direct">风向</string>
+    <string name="tv_power">风力</string>
+    <string name="tv_aqi">空气质量</string>
+
+    <string name="tv_re_select_city">重新选择城市</string>
+    <string name="tv_copy_qq">Kotlin学习群:675501323（点击复制）</string>
+
+</resources>

@@ -60,9 +60,19 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 - [Kotlin学习（九）—— Android Studio 创建第一个Kotlin App](https://blog.csdn.net/qq_26787115/article/details/103308358)
 
+- [Kotlin学习（十）—— Kotlin 计算器](https://blog.csdn.net/qq_26787115/article/details/103683009)
+
+- [Kotlin 超车指南](https://liuguilin.blog.csdn.net/article/details/103683034)
+
+## 六.Kotlin-Weather
+
+[点击查看源码](https://github.com/LiuGuiLinAndroid/Kotlin/tree/master/Sample/KotlinWeather)
+
+![](https://img-blog.csdnimg.cn/20191224150139995.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9saXVndWlsaW4uYmxvZy5jc2RuLm5ldA==,size_16,color_FFFFFF,t_70)
+
 ## 六.Discuss
 
-![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/Kotlin.jpg)
+![Kotlin](https://img-blog.csdnimg.cn/20191224145547663.png)
 
 ## 七.Hi Android
 
@@ -76,4 +86,4 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 那么，欢迎加入
 
-![Hi Android](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/Preview/HiAndroid.jpg)
+![Hi Android](https://img-blog.csdnimg.cn/20191224145600704.png)

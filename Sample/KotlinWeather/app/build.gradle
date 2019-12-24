@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.liuguilin.kotlinweather"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        buildConfigField("String", "WEATHER_KEY", "\"4ea58de8a7573377cec0046f5e2469d5\"")
+        buildConfigField("String", "BASE_URL", "\"http://apis.juhe.cn/\"")
+        buildConfigField("String", "LOG_TAG", "\"KtWeather\"")
+    }
+
+    //签名配置
+    signingConfigs {
+        release {
+            keyAlias 'liuguilin'
+            keyPassword '123456'
+            storeFile file('/src/main/jks/weather.jks')
+            storePassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-alpha03'
+    implementation 'com.google.android.material:material:1.2.0-alpha02'
+}
