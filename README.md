@@ -72,11 +72,19 @@ Android Studio 3.0 支持 Kotlin ：[Kotlin 和 Android](https://developer.andro
 
 ![Weather](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/weather.png?raw=true)
 
-## 六.Discuss
+## 七.KotlinTools
+
+[点击查看源码](https://github.com/LiuGuiLinAndroid/Kotlin/tree/master/sample/KotlinTools)
+
+[Kotlin基础与Android实战]课程源码
+
+课程地址：[https://edu.csdn.net/course/detail/27403](https://edu.csdn.net/course/detail/27403)
+
+## 八.Discuss
 
 ![Kotlin](https://github.com/LiuGuiLinAndroid/Kotlin/blob/master/preview/Kotlin.jpg?raw=true)
 
-## 七.Hi Android
+## 九.Hi Android
 
 如果你想快速进阶Android
 

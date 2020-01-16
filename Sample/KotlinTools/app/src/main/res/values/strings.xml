@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kotlin Tools</string>
+
+    <string name="tv_temperature_a">℃</string>
+    <string name="tv_humidity">湿度</string>
+    <string name="tv_direct">风向</string>
+    <string name="tv_power">风力</string>
+    <string name="tv_aqi">空气质量</string>
+
+    <string name="tv_province">省</string>
+    <string name="tv_city">市</string>
+    <string name="tv_district">县/区</string>
+
+</resources>
